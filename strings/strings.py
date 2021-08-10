@@ -7,8 +7,12 @@ oracion = "La computadora tiene datos"
 # print(oracion.isupper())
 # print(len(oracion))
 
-oracion_2 = "y crea informacion"
+# oracion_2 = "y crea informacion"
 # print(len(oracion) + len(oracion_2))
 
-print(oracion.upper().isupper() + oracion_2.upper().isupper()
-+ len(oracion) + len(oracion_2) )
+# print(oracion.upper().isupper() + oracion_2.upper().isupper()
+# + len(oracion) + len(oracion_2) )
+
+print(oracion.index("datos"))
+print(oracion[10])
+print(oracion.replace("tiene datos","produce informacion"))
