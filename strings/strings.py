@@ -16,3 +16,4 @@ oracion = "La computadora tiene datos"
 print(oracion.index("datos"))
 print(oracion[10])
 print(oracion.replace("tiene datos","produce informacion"))
+# esta es una prueba
